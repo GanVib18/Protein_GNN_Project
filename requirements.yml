@@ -1,0 +1,23 @@
+name: protein_gnn
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pybind11
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - pytorch=2.0
+  - torchvision
+  - seaborn
+  - networkx
+  - pip
+  - pip:
+      - torch-scatter
+      - torch-sparse
+      - torch-cluster
+      - torch-spline-conv
+      - torch-geometric
